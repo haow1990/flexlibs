@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<s:Application xmlns:fx="http://ns.adobe.com/mxml/2009" 
+			   xmlns:s="library://ns.adobe.com/flex/spark" 
+			   xmlns:mx="library://ns.adobe.com/flex/mx" minWidth="955" minHeight="600">
+	<fx:Declarations>
+		<!-- 将非可视元素（例如服务、值对象）放在此处 -->
+	</fx:Declarations>
+	
+	<s:layout>
+		<s:VerticalLayout verticalAlign="middle" horizontalAlign="center"/>
+	</s:layout>
+	
+	<fx:Style source="metro.css"/>
+	
+	<s:Button label="登陆" skinClass="com.codinghall.skin.metro.MetroBlueButtonSkin"/>
+	<s:Button label="登陆" skinClass="com.codinghall.skin.metro.MetroGreenButtonSkin"/>
+	<s:Button label="登陆" skinClass="com.codinghall.skin.metro.MetroRedButtonsSkin"/>
+	<s:DropDownList id="ddl" selectedIndex="0">
+		<s:dataProvider>
+			<s:ArrayList>
+				<fx:String>星期一</fx:String>
+				<fx:String>星期二</fx:String>
+				<fx:String>星期三</fx:String>
+				<fx:String>星期四</fx:String>
+				<fx:String>星期五</fx:String>
+				<fx:String>星期六</fx:String>
+				<fx:String>星期日</fx:String>
+			</s:ArrayList>
+		</s:dataProvider>
+	</s:DropDownList>
+	<s:ButtonBar >
+		<s:dataProvider>
+			<s:ArrayList>
+				<fx:String>星期一</fx:String>
+				<fx:String>星期二</fx:String>
+				<fx:String>星期三</fx:String>
+				<fx:String>星期四</fx:String>
+				<fx:String>星期五</fx:String>
+				<fx:String>星期六</fx:String>
+				<fx:String>星期日</fx:String>
+			</s:ArrayList>
+		</s:dataProvider>
+	</s:ButtonBar>
+	<s:TabBar >
+		<s:dataProvider>
+			<s:ArrayList>
+				<fx:String>星期一</fx:String>
+				<fx:String>星期二</fx:String>
+				<fx:String>星期三</fx:String>
+				<fx:String>星期四</fx:String>
+				<fx:String>星期五</fx:String>
+				<fx:String>星期六</fx:String>
+				<fx:String>星期日</fx:String>
+			</s:ArrayList>
+		</s:dataProvider>
+	</s:TabBar>
+</s:Application>
