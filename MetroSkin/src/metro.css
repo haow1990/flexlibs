@@ -1,0 +1,33 @@
+/* CSS file */
+@namespace s "library://ns.adobe.com/flex/spark";
+@namespace mx "library://ns.adobe.com/flex/mx";
+
+s|Application {
+	fontSize: 16px;
+	fontFamily: 微软雅黑;
+}
+
+s|Button {
+	skinClass:ClassReference("com.codinghall.skin.metro.MetroBlueButtonSkin");
+}
+
+s|ButtonBar {
+	skinClass:ClassReference("com.codinghall.skin.metro.MetroButtonBarSkin");
+}
+
+s|TabBar {
+	skinClass:ClassReference("com.codinghall.skin.metro.MetroTabBarSkin");
+}
+
+s|DropDownList {
+	skinClass:ClassReference("com.codinghall.skin.metro.MetroDropdownListSkin");
+}
+
+s|TitleWindow {
+	skinClass:ClassReference("com.codinghall.skin.metro.MetroTitleWindowSkin");
+}
+
+s|VScrollBar {
+	skinClass:ClassReference("com.codinghall.skin.metro.MetroVScrollerBarSkin");
+}
+
