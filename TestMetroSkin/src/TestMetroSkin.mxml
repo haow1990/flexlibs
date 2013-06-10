@@ -12,12 +12,12 @@
 	
 	<fx:Style source="metro.css"/>
 	
-	<s:Button label="登陆" skinClass="com.codinghall.skin.metro.MetroBlueButtonSkin"/>
-	<s:Button label="登陆" skinClass="com.codinghall.skin.metro.MetroGreenButtonSkin"/>
-	<s:Button label="登陆" skinClass="com.codinghall.skin.metro.MetroRedButtonsSkin"/>
+	<s:Button label="登陆" />
 	<s:DropDownList id="ddl" selectedIndex="0">
 		<s:dataProvider>
 			<s:ArrayList>
+				<fx:String>1</fx:String>
+				<fx:String>12</fx:String>
 				<fx:String>星期一</fx:String>
 				<fx:String>星期二</fx:String>
 				<fx:String>星期三</fx:String>

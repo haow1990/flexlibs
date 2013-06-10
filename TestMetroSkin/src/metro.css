@@ -8,26 +8,26 @@ s|Application {
 }
 
 s|Button {
-	skinClass:ClassReference("com.codinghall.skin.metro.MetroBlueButtonSkin");
+	skinClass:ClassReference("com.codinghall.skin.mac.ButtonSkin");
 }
 
 s|ButtonBar {
-	skinClass:ClassReference("com.codinghall.skin.metro.MetroButtonBarSkin");
+	skinClass:ClassReference("com.codinghall.skin.mac.ButtonBarSkin");
 }
 
 s|TabBar {
-	skinClass:ClassReference("com.codinghall.skin.metro.MetroTabBarSkin");
+	skinClass:ClassReference("com.codinghall.skin.mac.TabBarSkin");
 }
 
 s|DropDownList {
-	skinClass:ClassReference("com.codinghall.skin.metro.MetroDropdownListSkin");
+	skinClass:ClassReference("com.codinghall.skin.mac.DropdownListSkin");
 }
 
 s|TitleWindow {
-	skinClass:ClassReference("com.codinghall.skin.metro.MetroTitleWindowSkin");
+	skinClass:ClassReference("com.codinghall.skin.mac.TitleWindowSkin");
 }
 
 s|VScrollBar {
-	skinClass:ClassReference("com.codinghall.skin.metro.MetroVScrollerBarSkin");
+	skinClass:ClassReference("com.codinghall.skin.mac.VScrollerBarSkin");
 }
 
