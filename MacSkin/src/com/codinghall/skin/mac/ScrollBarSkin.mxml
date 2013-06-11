@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <s:SparkSkin xmlns:fx="http://ns.adobe.com/mxml/2009" xmlns:s="library://ns.adobe.com/flex/spark"
-    xmlns:fb="http://ns.adobe.com/flashbuilder/2009">
+    xmlns:fb="http://ns.adobe.com/flashbuilder/2009" minWidth="16" minHeight="22">
 
     <fx:Metadata>
     <![CDATA[ 
@@ -13,8 +13,11 @@
 	
 	<fx:Script>
 		<![CDATA[
-			[Embed(source="com/codinghall/skin/mac/assets/thum_skin.png")]
+			[Embed(source="com/codinghall/skin/mac/assets/thum_skin.png", scaleGridLeft=8, scaleGridRight=9, scaleGridTop=11,scaleGridBottom=12)]
 			private const img:Class;
+			
+			[Embed(source="com/codinghall/skin/mac/assets/thum_skin_over.png", scaleGridLeft=8, scaleGridRight=9, scaleGridTop=11,scaleGridBottom=12)]
+			private const imgOver:Class;
 		]]>
 	</fx:Script>
     
@@ -25,5 +28,5 @@
         <s:State name="disabled" />
     </s:states>
 	
-	<s:Image left="0" right="0" top="6" bottom="6" source="{img}"/>
+	<s:Image left="0" right="0" top="0" bottom="0" source="{img}" source.over="{imgOver}" source.down="{imgOver}"/>
 </s:SparkSkin>
